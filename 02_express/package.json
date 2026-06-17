@@ -1,0 +1,26 @@
+{
+  "name": "tea-leaker",
+  "version": "1.0.0",
+  "description": "Good friend always betrayd",
+  "keywords": [
+    "express",
+    "tea"
+  ],
+  "license": "ISC",
+  "author": "Vivek chaurasiya",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index,js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "morgan": "^1.11.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
